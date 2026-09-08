@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2088771_metro_0.Metro FareCalculator</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Metro FareCalculator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MetroFareCalculator = Class.create();
+MetroFareCalculator.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getFare: function() {
+
+        var from = this.getParameter('sysparm_from');
+        var to = this.getParameter('sysparm_to');
+
+        if (!from || !to || from == to) {
+            return '0';
+        }
+
+        var AMEERPET = 'ad3fd57a83cf03d052127629feaad330';
+        var MADHAPUR = 'f55fd97a83cf03d052127629feaad39a';
+        var LB_NAGAR = '056f5d7a83cf03d052127629feaad34a';
+        var KUKATPALLY = '43ee9d3a83cf03d052127629feaad30b';
+        var JUBILEE_HILLS = 'c50f513a83cf03d052127629feaad35b';
+        var PANJAGUTTA = '5e2f557a83cf03d052127629feaad367';
+        var UPPAL_STADIUM = 'b54f197a83cf03d052127629feaad3de';
+
+        var fares = {};
+
+        function addFare(a, b, fare) {
+            fares[[a, b].sort().join('_')] = fare;
+        }
+
+        addFare(AMEERPET, MADHAPUR, 30);
+        addFare(AMEERPET, LB_NAGAR, 50);
+        addFare(AMEERPET, KUKATPALLY, 30);
+        addFare(AMEERPET, JUBILEE_HILLS, 20);
+        addFare(AMEERPET, PANJAGUTTA, 20);
+        addFare(AMEERPET, UPPAL_STADIUM, 60);
+
+        addFare(MADHAPUR, LB_NAGAR, 80);
+        addFare(MADHAPUR, KUKATPALLY, 40);
+        addFare(MADHAPUR, JUBILEE_HILLS, 30);
+        addFare(MADHAPUR, PANJAGUTTA, 30);
+        addFare(MADHAPUR, UPPAL_STADIUM, 70);
+
+        addFare(LB_NAGAR, KUKATPALLY, 60);
+        addFare(LB_NAGAR, JUBILEE_HILLS, 50);
+        addFare(LB_NAGAR, PANJAGUTTA, 60);
+        addFare(LB_NAGAR, UPPAL_STADIUM, 40);
+
+        addFare(KUKATPALLY, JUBILEE_HILLS, 30);
+        addFare(KUKATPALLY, PANJAGUTTA, 30);
+        addFare(KUKATPALLY, UPPAL_STADIUM, 70);
+
+        addFare(JUBILEE_HILLS, PANJAGUTTA, 20);
+        addFare(JUBILEE_HILLS, UPPAL_STADIUM, 60);
+
+        addFare(PANJAGUTTA, UPPAL_STADIUM, 60);
+
+        var key = [from, to].sort().join('_');
+
+        return fares[key] || '0';
+    },
+
+    type: 'MetroFareCalculator'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 06:12:56</sys_created_on>
+        <sys_id>7ec0f04483d78bd052127629feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metro FareCalculator</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_update_name>sys_script_include_7ec0f04483d78bd052127629feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 06:12:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

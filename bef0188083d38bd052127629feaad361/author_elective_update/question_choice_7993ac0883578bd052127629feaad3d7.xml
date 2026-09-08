@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Type of journey">5181e40483578bd052127629feaad328</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 05:12:35</sys_created_on>
+        <sys_id>7993ac0883578bd052127629feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_update_name>question_choice_7993ac0883578bd052127629feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 05:12:35</sys_updated_on>
+        <text>4</text>
+        <value>4</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=7993ac0883578bd052127629feaad3d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</application>
+        <file_path/>
+        <instance_id>233715361bf17d90c84543f4bd4bcbcc</instance_id>
+        <instance_name>dev185002</instance_name>
+        <name>question_choice_7993ac0883578bd052127629feaad3d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref/><question display_value="Type of journey">5181e40483578bd052127629feaad328</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 05:12:35</sys_created_on><sys_id>7993ac0883578bd052127629feaad3d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4</sys_name><sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package><sys_policy/><sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope><sys_update_name>question_choice_7993ac0883578bd052127629feaad3d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 05:12:35</sys_updated_on><text>4</text><value>4</value></question_choice><fx_price action="delete_multiple" query="id=7993ac0883578bd052127629feaad3d7"/></record_update>]]></payload>
+        <payload_hash>1689791594</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>72f0188083d38bd052127629feaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 05:12:35</sys_created_on>
+        <sys_id>acc3244883578bd052127629feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07f6eafe50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 05:12:35</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>6cc324489e578bd0f4b0b84208148e8c</update_guid>
+        <update_guid_history>6cc324489e578bd0f4b0b84208148e8c:1689791594</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4">cf55648483578bd052127629feaad37b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 05:19:35</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2506b083eb76468f853de4c1f9fc4279</sys_id>
+        <sys_metadata>7993ac0883578bd052127629feaad3d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_parent display_value="Type of Journey">5181e40483578bd052127629feaad328</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_scope_delete display_value="">32d71f2f4365499c90982f0c97f1e204</sys_scope_delete>
+        <sys_update_name>question_choice_7993ac0883578bd052127629feaad3d7</sys_update_name>
+        <sys_update_version display_value="question_choice_7993ac0883578bd052127629feaad3d7">acc3244883578bd052127629feaad38d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 05:19:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

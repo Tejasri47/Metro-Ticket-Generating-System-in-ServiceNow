@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Type of Journey">5181e40483578bd052127629feaad328</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 05:11:06</sys_created_on>
+        <sys_id>bd23a40083578bd052127629feaad3e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Single Journey</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_update_name>question_choice_bd23a40083578bd052127629feaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 05:20:52</sys_updated_on>
+        <text>Single Journey</text>
+        <value>Single journey</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=bd23a40083578bd052127629feaad3e0"/>
+</record_update>

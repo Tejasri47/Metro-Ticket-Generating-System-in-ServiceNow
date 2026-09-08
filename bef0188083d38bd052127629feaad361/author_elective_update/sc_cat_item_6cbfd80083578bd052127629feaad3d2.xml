@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <cc_render_type>system</cc_render_type>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Book a metro Ticket</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6cbfd80083578bd052127629feaad3d2&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <secondary_owners/>
+        <short_description>A metro e-ticketing system allows passengers to purchase and use tickets digitally, typically via mobile app or webiste, eliminating the need</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 04:57:41</sys_created_on>
+        <sys_id>6cbfd80083578bd052127629feaad3d2</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Book a metro Ticket</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_update_name>sc_cat_item_6cbfd80083578bd052127629feaad3d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 16:42:13</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>38</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=6cbfd80083578bd052127629feaad3d2"/>
+    <fx_price action="DELETE" query="id=6cbfd80083578bd052127629feaad3d2"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>6cbfd80083578bd052127629feaad3d2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 04:57:41</sys_created_on>
+        <sys_id>9650208083578bd052127629feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 04:57:41</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>6cbfd80083578bd052127629feaad3d2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 04:57:41</sys_created_on>
+        <sys_id>de50208083578bd052127629feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 04:57:41</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</application>
+        <file_path/>
+        <instance_id>233715361bf17d90c84543f4bd4bcbcc</instance_id>
+        <instance_name>dev185002</instance_name>
+        <name>sc_cat_item_6cbfd80083578bd052127629feaad3d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><cc_render_type>system</cc_render_type><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Book a metro Ticket</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6cbfd80083578bd052127629feaad3d2&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><recurring_price>0</recurring_price><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template/><secondary_owners/><short_description>A metro e-ticketing system allows passengers to purchase and use tickets digitally, typically via mobile app or webiste, eliminating the need</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 04:57:41</sys_created_on><sys_id>6cbfd80083578bd052127629feaad3d2</sys_id><sys_mod_count>38</sys_mod_count><sys_name>Book a metro Ticket</sys_name><sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package><sys_policy/><sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope><sys_update_name>sc_cat_item_6cbfd80083578bd052127629feaad3d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 16:42:13</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>38</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=6cbfd80083578bd052127629feaad3d2"/><fx_price action="delete_multiple" query="id=6cbfd80083578bd052127629feaad3d2"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>6cbfd80083578bd052127629feaad3d2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 04:57:41</sys_created_on><sys_id>9650208083578bd052127629feaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 04:57:41</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>recurring_price</field><id>6cbfd80083578bd052127629feaad3d2</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 04:57:41</sys_created_on><sys_id>de50208083578bd052127629feaad3a9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 04:57:41</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>2120803927</payload_hash>
+        <record_name>Book a metro Ticket</record_name>
+        <reverted_from/>
+        <source>72f0188083d38bd052127629feaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 16:42:13</sys_created_on>
+        <sys_id>7e914f8083d3031052127629feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a081e6120a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 16:42:13</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>3e914f809dd303107350ddc2d919e3e4</update_guid>
+        <update_guid_history>3e914f809dd303107350ddc2d919e3e4:2120803927,a158d504d01f8bd06769bd93ead2d125:-2113590883,4415b08c96d78bd08419eff5b60189a0:269997660,b494b888f7d78bd0adbc08cac1023e8d:-1641381093,1244740c59d78bd052bd304bd99d276d:742207450,e8c3b0c8aed78bd02f351784c283d6df:-1169171303,bd02b8c457d78bd01b30005bb2c5300e:1214417240,10b07c0015d78bd0bca39bd2d6c843ab:-696961513,d93da40c82978bd052dd2eecbc110217:1686627030,eeeca8c868978bd01c51f754e718aaa2:-1708999872,29ace8803f978bd073bd09836bfd4c83:674588671,661a2484c6978bd09010b00b4334b96d:-1236790082,740aec44bc978bd0076ceaf1c04f86ae:1146798461,aae9ac449d978bd048c6c070281db41a:-764580292,39d9a844f2978bd01d89c931de973800:1619008251,50a9604429978bd02004ad68f90a60fd:-292370502,54d8a08011978bd0b950ff5da7080349:2091218041,3f9660cc5b578bd0da02a73e0dc7bfc3:179839288,7556a48c57578bd0bfde9b0148c5c9f4:-1731539465,8d46a48c62578bd0b05b0f924adfed26:-832199071,5eb5244c13578bd02786b5f7c67412a0:1551389472,31a5604c45578bd04d90b70ae1d72181:-359989281,b385ac0c81578bd0b986b356dbcef6ca:2023599262,c585e8049a578bd0edac122b1fadfa27:112220509,cf55280caa578bd0494713d8aae07629:-1799158244,8355280c3d578bd0e4e0b15d5ee58f19:584430299,3935e00c47578bd0eb5eb0323fbbd70d:-1326948454,5ff4e8c813578bd09913b7bb5f17bdde:1056640089,37d428c837578bd027243f1b09e53f35:-854738664,ecc3244828578bd0484b0af7ab2c7688:-209690380,52a3ac08dd578bd0c3c853cbcebbd1e0:-2121069133,4193ac08d5578bd0150d7c4dea8568a6:262519410,a3732808ab578bd0e82c76e97bc30013:-1648859343,fa63680829578bd02898306fbb2855f5:734729200,7f722c8402578bd0f9b05f3d5e2087e2:-1176649553,436124042e578bd08e2d42435f641375:1206938990,61c06c80cb578bd0c44a010ec634ef53:-704439763,2250208043578bd0124422d2c52780c2:1679148780,9e50208096578bd0ed0788b6b10d0bbe:1849522912</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Book a metro Ticket">72914f8083d3031052127629feaad3ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-09-08 16:42:14</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>0b41fd06d91d4c7c89371f0f57ba17b9</sys_id>
+        <sys_metadata>6cbfd80083578bd052127629feaad3d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book a metro Ticket</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_scope_delete display_value="">32d71f2f4365499c90982f0c97f1e204</sys_scope_delete>
+        <sys_update_name>sc_cat_item_6cbfd80083578bd052127629feaad3d2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_6cbfd80083578bd052127629feaad3d2">7e914f8083d3031052127629feaad3e5</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-09-08 16:42:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

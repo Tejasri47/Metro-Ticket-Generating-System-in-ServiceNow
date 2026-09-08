@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Book a metro Ticket">6cbfd80083578bd052127629feaad3d2</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 04:57:41</sys_created_on>
+        <sys_id>5e50208083578bd052127629feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Book a metro Ticket</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_update_name>sc_cat_item_category_5e50208083578bd052127629feaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 04:57:41</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</application>
+        <file_path/>
+        <instance_id>233715361bf17d90c84543f4bd4bcbcc</instance_id>
+        <instance_name>dev185002</instance_name>
+        <name>sc_cat_item_category_5e50208083578bd052127629feaad3b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Book a metro Ticket">6cbfd80083578bd052127629feaad3d2</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-08 04:57:41</sys_created_on><sys_id>5e50208083578bd052127629feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Book a metro Ticket</sys_name><sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package><sys_policy/><sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope><sys_update_name>sc_cat_item_category_5e50208083578bd052127629feaad3b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-08 04:57:41</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1281169429</payload_hash>
+        <record_name>Services.Book a metro Ticket</record_name>
+        <reverted_from/>
+        <source>72f0188083d38bd052127629feaad372</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 04:57:41</sys_created_on>
+        <sys_id>d250208083578bd052127629feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a07f610ccd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 04:57:41</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>925020805b578bd0a820e0573ed131b6</update_guid>
+        <update_guid_history>925020805b578bd0a820e0573ed131b6:-1281169429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Book a metro Ticket">2a914f8083d3031052127629feaad3d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-08 16:42:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3c1d53baeca04ad2bb9593e70041a984</sys_id>
+        <sys_metadata>5e50208083578bd052127629feaad3b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Book a metro Ticket</sys_name>
+        <sys_package display_value="Metro Ticket Generating System" source="x_2088771_metro_0">bef0188083d38bd052127629feaad361</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Metro Ticket Generating System">bef0188083d38bd052127629feaad361</sys_scope>
+        <sys_scope_delete display_value="">32d71f2f4365499c90982f0c97f1e204</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_5e50208083578bd052127629feaad3b1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_5e50208083578bd052127629feaad3b1">d250208083578bd052127629feaad3b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-08 16:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
